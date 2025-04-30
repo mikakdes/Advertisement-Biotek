@@ -1,0 +1,181 @@
+body { 
+    margin: 0px; 
+} 
+header { 
+    display: flex; 
+    top:0;
+    width: 100%;  
+    background-color:rgb(255, 234, 195); 
+    justify-content: space-between; 
+    position: fixed; 
+    z-index: 1; 
+    color:rgb(0, 0, 0); 
+    padding: 10px; 
+}
+nav a{ 
+    padding: 10px 25px; 
+    text-decoration: none; 
+    color: #d79864; 
+}
+nav a:hover{
+    background-color:#e2b76b;
+    transition:0.5s;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0);
+    scale:105%;
+    filter:drop-shadow(0px 0px 5px black);
+}
+section.home{
+     background: url("c6333d7a-1e1a-4a99-be54-037be307210c.jfif"); 
+     background-size: cover; 
+     background-repeat: no-repeat; 
+     background-attachment: fixed; 
+     height: 800px; 
+     font-family: 'Arial Narrow', Arial, sans-serif;
+} 
+section.about{ 
+    background-color: black; 
+    height: 700px; 
+} 
+section.product{ 
+    background: url("c6333d7a-1e1a-4a99-be54-037be307210c.jfif"); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    height: 800px; 
+} 
+section.product .container .card:hover {
+    animation: goyang 0.5s;
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+}
+
+@keyframes goyang {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(3deg);
+    }
+    50% {
+        transform: rotate(-3deg);
+    }
+    75% {
+        transform: rotate(1deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+section.contact{ 
+    background-color: black; 
+    height: 600px; 
+} 
+footer{ 
+    background-color: black; 
+    height:50px; 
+}
+section.home{ 
+    background:url("c6333d7a-1e1a-4a99-be54-037be307210c.jfif"); 
+    background-size: cover; 
+    height: 600px; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    padding-top: 100px; 
+} 
+section.home div{ 
+    text-align: center; 
+    color: white; 
+    margin:auto; 
+    width:70%; 
+    padding: 20px; 
+} 
+section.home .welcome{ 
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(73, 62, 34); 
+} 
+section.home a{ 
+    color: rgb(0, 0, 0); 
+    padding: 10px 20px; 
+    text-decoration: none; 
+    box-shadow: 0px 0px 3px; 
+    border-radius: 20px; 
+}
+section.about{ 
+    background-color: black; 
+    height: 600px; 
+    padding-top:100px; 
+} 
+section.about div{ 
+    color:white; 
+    text-align: center; 
+    margin:auto; 
+    width:70%; 
+} 
+section.about img{ 
+    height: 200px;
+}
+section.product{ 
+    background: url("25f6d006-4854-499e-be6f-ae68cbb4114c.jfif"); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    height: 1200px; 
+} 
+section.product .container { 
+    justify-content: center; 
+    display: flex; 
+    flex-wrap: wrap; 
+    padding-top: 50px; 
+} 
+section.product .container .card{
+    background-color: rgb(253, 213, 138); 
+    text-align: center; 
+    padding: 30px; 
+    width: 220px; 
+    height: 400px; 
+    margin: 70px; 
+    border-radius: 11px;
+} 
+section.product .container .card img{ 
+    width: 100%; 
+    border-radius: 20px;
+}
+section.product .container .card a{
+    color: black; 
+    padding: 5px 20px; 
+    text-decoration: none; 
+    box-shadow: 0px 0px 3px; 
+}
+section.contact{
+    background-color: black; 
+    height: 600px; 
+} 
+section.contact .card{ 
+    margin: auto; 
+    color: white; 
+    text-align: center; 
+    padding-top: 100px; 
+    width: 400px; 
+} 
+section.contact .card img{ 
+    width: 200px; 
+}
+footer{ 
+    background-color: grey; 
+    height: 50px; 
+} 
+footer .medsos{ 
+    text-align: center; 
+    padding-top: 10px; 
+} 
+footer .medsos a{ 
+    color:white; 
+    font-size: 20px; 
+    padding: 5px 20px; 
+}
+.medsos{
+    transition:0.5s;
+    box-shadow: 0px 0px 5px black;
+    scale:105%;
+    filter:drop-shadow(0px 0px 5px black);
+}
