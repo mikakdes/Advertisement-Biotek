@@ -5,24 +5,36 @@ header {
     display: flex; 
     top:0;
     width: 100%;  
-    background-color:rgb(255, 234, 195); 
+    background-color:rgb(209, 126, 57); 
     justify-content: space-between; 
     position: fixed; 
     z-index: 1; 
-    color:rgb(0, 0, 0); 
+    color:rgb(255, 255, 255); 
     padding: 10px; 
 }
 nav a{ 
     padding: 10px 25px; 
     text-decoration: none; 
-    color: #d79864; 
+    color: #ffffff; 
 }
 nav a:hover{
-    background-color:#e2b76b;
+    background-color:#ffb24e;
     transition:0.5s;
     box-shadow: 0px 0px 5px rgb(0, 0, 0);
     scale:105%;
     filter:drop-shadow(0px 0px 5px black);
+}
+h1{
+    font-family:'Times New Roman', Times, serif;
+    color:cornsilk;
+}
+h2{
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(179, 92, 35);
+}
+h3{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #d79864;
 }
 section.home{
      background: url("c6333d7a-1e1a-4a99-be54-037be307210c.jfif"); 
@@ -131,8 +143,8 @@ section.product .container .card{
     background-color: rgb(253, 213, 138); 
     text-align: center; 
     padding: 30px; 
-    width: 220px; 
-    height: 400px; 
+    width: 225px; 
+    height: 405px; 
     margin: 70px; 
     border-radius: 11px;
 } 
@@ -149,7 +161,7 @@ section.product .container .card a{
 section.contact{
     background-color: black; 
     height: 600px; 
-} 
+}
 section.contact .card{ 
     margin: auto; 
     color: white; 
@@ -174,8 +186,23 @@ footer .medsos a{
     padding: 5px 20px; 
 }
 .medsos{
-    transition:0.5s;
-    box-shadow: 0px 0px 5px black;
-    scale:105%;
-    filter:drop-shadow(0px 0px 5px black);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(167, 111, 58);
+    text-align: center;
+    height:40px;
+    padding-top:5px;
+}
+.medsos a{
+    text-decoration: none;
+    color:rgb(214, 131, 54);
+    padding: 5px 15px;
+    font-size: 24px;
+    transition: 0.1s;
+    &:hover{
+        color:rgb(255, 174, 0);
+        transition: 0.3s;
+    }
 }
